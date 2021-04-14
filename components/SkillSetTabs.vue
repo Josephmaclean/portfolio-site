@@ -29,7 +29,10 @@ export default Vue.extend({
   },
   methods: {
     selectTab(selectedTab: Vue): void {
-      this.tabs.forEach((tab) => (tab.isActive = tab.src === selectedTab.src))
+      this.tabs.forEach(
+        (tab) =>
+          (tab.$data.isActive = tab.$props.src === selectedTab.$props.src)
+      )
     },
   },
 })
