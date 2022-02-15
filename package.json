@@ -29,7 +29,7 @@
     "fibers": "^5.0.0",
     "gsap": "^3.6.1",
     "nuxt": "^2.15.3",
-    "sass-loader": "10",
+    "sass-loader": "12",
     "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
